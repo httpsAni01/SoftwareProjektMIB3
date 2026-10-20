@@ -1,36 +1,43 @@
 # Product Vision
 
 ## 1. Produktname
-[Name unseres Projekts]
+RegioKArgoTramTrain-Haltestellenmonitor
 
 ## 2. Zielgruppe
-Unsere Software richtet sich an [Personen, die unsere Software benutzen sollen].
+Fahrgäste und Personen, die den interaktiven Haltestellenmonitor nutzen, sowie Adminstartoren, die dessen Anzeige konfigurieren.
 
 ## 3. Problem
-Aktuell haben diese Personen das Problem, dass [Beschreibung des Problems].
+Fahrgäste benötigen eine verständliche und übersichtliche Darstellung der relevanten Fahrten und Informationen zum kombinierten Personen- und Warentransport. Gleichzeitig müssen bestimmte Informationen, beispielsweise der Status eines Roboters, visualisiert werden können.
 
 ## 4. Produktvision
-Wir entwickeln [Art der Software] für [Zielgruppe], damit sie [Ziel oder Nutzen]. Unsere Software soll es ermöglichen, [wichtigster Vorteil].
+Wir entwickeln einen plattformunabhängigen, interaktiven Haltestellenmonitor, der relevante Fahrten und Roboterinformationen übersichtlich darstellt. Die Software soll eine intuitive Bedienung ermöglichen und über eine Administrationsoberfläche konfigurierbar sein.
 
 ## 5. Wichtigster Nutzen
-- [Nutzen 1]
-- [Nutzen 2]
-- [Nutzen 3]
+- Übersichtliche Darstellung mehrere Fahrten.
+- Visualisierung der Ausstiegshaltestelle des Roboters und seines Status
+- Mehrsprachige und interaktive Bedienung (nur wenn Zeit ist)
 
 ## 6. Ziel der ersten Version (MVP)
 Die erste Version unserer Software soll mindestens Folgendes ermöglichen:
-- [Kernfunktion 1]
-- [Kernfunktion 2]
-- [Kernfunktion 3]
+- Gleichzeitige Anzeige von mind. 5 Fahrten
+- Darstellung der Ausstiegshaltestelle und des Roboterstatus
+- Konfiguration der Haltestelle und des Roboterstatus über eine Admin-Oberfläche
+- (Sprachwechsel zwischen Deutsch, Englisch und Französisch)
 
 ## 7. Nicht-Ziele
-In der ersten Version wollen wir bewusst noch nicht umsetzen:
-- [Funktion, die vorerst nicht benötigt wird]
+- Nicht ausdrücklich benötigte Zusatzfunktionen, die über die Anforderungen des ersten Prototyps hinausgehen.
+- Erweiterungen, die für die grundlegende Demonstration des Haltestellenmonitors nicht notwendig sind.
 
 ## 8. Erfolgskriterien
 Wir erkennen, dass unsere Software ihr Ziel erreicht, wenn:
-- [Überprüfbares Erfolgskriterium 1]
-- [Überprüfbares Erfolgskriterium 2]
+- Mindestens fünf Fahrten können gleichzeitig angezeigt werden.
+- Die Ausstiegshaltestelle und der Roboterstatus werden verständlich dargestellt.
+- Haltestelle und Roboterstatus lassen sich über die Admin-Oberfläche konfigurieren.
+- Die Benutzeroberfläche unterstützt Deutsch, Englisch und Französisch
 
 ## 9. Offene Fragen
-- [Fragen, die wir im Team noch klären müssen]
+- Welche Daten liefert die vorhandene API genau?
+- Welche Funktionen muss die Admin-Oberfläche im Detail enthalten?
+- Welche Touch-Interaktionen sind erfolgreich?
+- Welche Datenbanktechnologie wird verwendet?
+- Welche weiteren Anforderungen gelten für die erste Version?
